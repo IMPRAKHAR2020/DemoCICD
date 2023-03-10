@@ -1,4 +1,4 @@
-const expect=require('chai');
+const expect=require('chai').expect;
 
 describe('sample test suit',()=>{
   it('first test case',()=>{
