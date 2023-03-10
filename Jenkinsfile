@@ -5,7 +5,9 @@ pipeline{
   stages{
     stage(build)
     {
-      steps{}
+      steps{
+      echo 'building the file.'
+      }
     }
     
   }
