@@ -5,6 +5,12 @@ pipeline{
   
   stages{
     
+     stage(preparing)
+    {
+      steps{
+      echo 'preparing to install'
+      }
+    }
     
     stage(install)
     {
