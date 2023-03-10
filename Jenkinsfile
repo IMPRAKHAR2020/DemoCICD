@@ -22,7 +22,10 @@ pipeline{
       echo 'deploying the project.'
       }
     }
-    post
+    
+  }
+  
+  post
     {
       always{
         echo 'this will always happen.'
@@ -36,5 +39,4 @@ pipeline{
         echo 'we are successful.'
       }
     }
-  }
 }
