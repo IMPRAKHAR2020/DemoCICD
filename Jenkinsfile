@@ -22,5 +22,19 @@ pipeline{
       echo 'deploying the project.'
       }
     }
+    post
+    {
+      always{
+        echo 'this will always happen.'
+      }
+      failure
+      {
+        echo 'only when it fails.'
+      }
+      success
+      {
+        echo 'we are successful.'
+      }
+    }
   }
 }
